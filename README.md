@@ -2,7 +2,7 @@
 
 Repositório onde se encontra hospedado todo o trabalho de Tecnologias Internet
 
----
+
 
 # Organização 
 
@@ -11,13 +11,13 @@ Report chapters are in doc folder.
 Gallery 1
 Please provide a galery of the final result, with small images A table may be usefull to organize the images.
 
----
+
 
 # Technologies
 
-. XML
-. HTML5 + CSS3
-. Javascript
+- XML
+- HTML5 + CSS3
+- Javascript
 
 ---
 
