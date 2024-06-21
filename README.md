@@ -31,4 +31,4 @@ Presentation
 Chapter 4: Presentation
 
 # Team
-Tiago Marinho Rego -A045895 @tiago-u 
+Tiago Marinho Rego -A045895
