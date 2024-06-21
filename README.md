@@ -21,14 +21,12 @@ Please provide a galery of the final result, with small images A table may be us
 
 ---
 
-Project presentation
-Chapter 1: Project presentation
-User Interface
-Chapter 2: User Interface Prototype and Sitemap
-Product
-Chapter 3: Product
-Presentation
-Chapter 4: Presentation
+# Project presentation
+
+## Chapter 1: Project presentation
+## Chapter 2: User Interface Prototype and Sitemap
+## Chapter 3: Product
+## Chapter 4: Presentation
 
 # Team
 Tiago Marinho Rego - A045895
