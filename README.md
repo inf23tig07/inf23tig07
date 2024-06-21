@@ -1,17 +1,25 @@
-Repository organization
+# Repositório
 
-Source code is in the src folder.
+Repositório onde se encontra hospedado todo o trabalho de Tecnologias Internet
+
+---
+
+# Organização 
+
+O Código fonte encontra-se na pasta src.
 Report chapters are in doc folder.
 Gallery 1
 Please provide a galery of the final result, with small images A table may be usefull to organize the images.
 
-Technologies
+---
 
-XML
-HTML5 + CSS3
-Javascript
+# Technologies
 
+. XML
+. HTML5 + CSS3
+. Javascript
 
+---
 
 Project presentation
 Chapter 1: Project presentation
