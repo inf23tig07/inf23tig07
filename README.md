@@ -1,12 +1,12 @@
-# Repositório
+## Repository
 
-Repositório onde se encontra hospedado todo o trabalho de Tecnologias Internet
+Repository to store the project 
 
 
 
-# Organização 
+# Organization 
 
-O Código fonte encontra-se na pasta src.
+Source Code is found on src folder.
 Report chapters are in doc folder.
 Gallery 1
 Please provide a galery of the final result, with small images A table may be usefull to organize the images.
@@ -29,5 +29,6 @@ Product
 Chapter 3: Product
 Presentation
 Chapter 4: Presentation
-Team
+
+# Team
 Tiago Marinho Rego -A045895 @tiago-u 
