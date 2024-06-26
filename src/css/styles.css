@@ -1,0 +1,555 @@
+/* Reset básico e configuração global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Centralização de conteúdo genérica */
+.center {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Estilo para a navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.6s ease-in-out;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #ee6730;
+}
+
+/* Estilos principais */
+main {
+    margin: 50px 0 0 0;
+    padding: 0 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo para tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th,
+table td {
+    border: 1px solid #333;
+    padding: 8px;
+    text-align: center;
+}
+
+tfoot td {
+    text-align: center;
+}
+
+/* Estilo para o vídeo do YouTube */
+#yt {
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 20px;
+}
+
+.video-container {
+    margin-top: 100px;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (divide 9 by 16 = 0.5625 and multiply by 100) */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Estilo para o footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px;
+}
+
+/* Estilo para as seçcões do footer */
+.footer-section {
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px;
+}
+
+@media (max-width: 1024px) {
+    .footer-section {
+     width: 100%;
+       padding: 20px;
+       margin: 0;
+    }
+    .footer-section .left p {
+        text-align: center;
+    }
+    
+    .footer-section .right address {
+        text-align: center;
+    }
+    
+    .footer-section .middle {
+        text-align: center;
+    }
+    
+}
+
+.footer-section .left p {
+    text-align: left;
+}
+
+.footer-section .right address {
+    text-align: right;
+}
+
+.footer-section .middle {
+    text-align: center;
+}
+
+a.contact {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.contact:hover {
+    opacity: 0.5;
+}
+
+.footer-section figure {
+    margin: 0;
+}
+
+.footer-section img {
+    width: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-section figcaption {
+    color: #ccc;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.umaia {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.umaia:hover {
+    opacity: 1;
+}
+
+/* Estilo para o conteúdo dropdown */
+
+.dropdown-content {
+    display: none;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.dropdown-toggle {
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+    color: #ee6730;
+}
+
+.jogadores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.players-section {
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.players-section li {
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    margin: 5px;
+    padding: 10px;
+    flex: 1 1 calc(16.666% - 10px); 
+    text-align: center;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+    .responsive-list li {
+        flex: 1 1 calc(50% - 10px); 
+    }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+    .responsive-list li {
+        flex: 1 1 calc(100% - 10px);
+    }
+}
+
+.players-section figure {
+    margin: 0;
+}
+
+.players-section img {
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.players-section figcaption {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    background-color: #fefefe;
+    border-radius: 20px;
+    border-bottom: #717171 1px solid;
+    padding: 50px 50px 25px 50px;
+    margin-bottom: 100px;
+}
+
+.mySlides {
+    display: none;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+
+}
+
+.fade-in {
+    display: block;
+    opacity: 1;
+}
+
+.fade-out {
+    opacity: 0;
+    display: block;
+}
+
+.slideshow-container img {
+    border-radius: 20px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Pontos */
+.dots {
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* CSS to style the icon */
+.icon {
+    max-width: 100px !important;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+ul.regras,
+ul.torneios,
+ul.clubes,
+ul.competicoes {
+    margin: 20px;
+}
+
+ul.torneios {
+    list-style: none;
+}
+
+ul.torneios li {
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+i {
+    padding-right: 10px;
+    color: #ee6730;
+}
+
+header a img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.player-info {
+    flex: 1;
+}
+
+.player-info h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.player-info p {
+    line-height: 1.4;
+    margin-bottom: 10px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-box {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2.form {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 150px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 15px;
+    background-color: #ee6730;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+    background-color: #ee6730;
+}
+
+.toggleButton {
+    background-color: #ee6730;
+    font-size: 16px;
+    padding: 14px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #fff;
+    transition: background-color 0.3s, transform 0.3s;
+    margin: 30px 0;
+    margin-right: 30px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.75;
+    transition: opacity 0.3s ease;
+}
+
+.toggleButton:hover {
+    opacity: 1;
+}
+
+.download-button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #ee6730;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16x;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    opacity: 0.75;
+    transition: opacity 0.3s ease;
+    min-width: 149px;
+    
+}
+
+.download-button:hover {
+    opacity: 1;
+}
+
+a {
+    color: #ee6730;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity 0.3s ease;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    display: block;
+}
+
+.nav-links a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav-links li {
+        text-align: center;
+        margin: 10px 0;
+    }
+    .menu-icon {
+        display: flex;
+    }
+}
+
+.nav-links.active {
+    display: flex;
+}
+
+.player-info p, h3 {
+    margin-left: 15px;
+}
