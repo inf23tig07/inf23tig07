@@ -6,10 +6,9 @@ Repository to store the project
 
 # Organization 
 
-Source Code is found on src folder.
-Report chapters are in doc folder.
-Gallery 1
-Please provide a galery of the final result, with small images A table may be usefull to organize the images.
+Source Code is found on the [src](src) folder
+
+Report chapters are in [doc](doc) folder.
 
 
 
