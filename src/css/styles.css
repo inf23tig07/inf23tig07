@@ -553,3 +553,7 @@ a:hover {
 .player-info p, h3 {
     margin-left: 15px;
 }
+
+[title] {
+    text-decoration: none;
+}
