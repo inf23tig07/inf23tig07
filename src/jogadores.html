@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogadores Famosos</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <img src="img/basket_icon.png" alt="Icon">
+        </a>
+        <h1>Jogadores Famosos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="regras.html">Regras do Jogo</a></li>
+                <li><a href="torneios.html">Torneios</a></li>
+                <li><a href="jogadores.html">Jogadores Famosos</a></li>
+                <li><a href="portugal.html">O Desporto em Portugal</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+       
+        <section class="jogadores">
+            <h2>Jogadores Históricos</h2>
+            <ul class="players-section">
+                <li>
+                    <figure>
+                        <img src="img/MJ.jpg" alt="Michael Jordan">
+                        <figcaption>Michael Jordan</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/Lebron.jpg" alt="LeBron James">
+                        <figcaption>LeBron James</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/Kobe.jpg" alt="Kobe Bryant">
+                        <figcaption>Kobe Bryant</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/Shaq.jpg" alt="Shaquille O'Neal">
+                        <figcaption>Shaquille O'Neal</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/Tim.jpg" alt="Tim Duncan">
+                        <figcaption>Tim Duncan</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/Larry.jpg" alt="Larry Bird">
+                        <figcaption>Larry Bird</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+    
+
+        <section class="jogadores">
+            <h2>Jogadores Atuais</h2>
+            <ul class="players-section">
+                <li>
+                    <figure>
+                        <img src="img/Giannis.jpg" alt="Giannis Antetokounmpo">
+                        <figcaption>Giannis Antetokounmpo</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/Kevin.jpg" alt="Kevin Durant">
+                        <figcaption>Kevin Durant</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/Steph.jpg" alt="Stephen Curry">
+                        <figcaption>Stephen Curry</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/Luka.jpg" alt="Luka Dončić">
+                        <figcaption>Luka Dončić</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/Joel.jpg" alt="Joel Embiid">
+                        <figcaption>Joel Embiid</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="img/Davis.jpg" alt="Anthony Davis">
+                        <figcaption>Anthony Davis</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Dados dos Jogadores</h2>
+            <button class="toggleButton" onclick="loadXMLDoc()">Carregar dados XML</button>
+            <!-- Dados em XML carregados dinamicamente através da função JS -->
+
+            <a href="jogadores.xml" class="download-button" download="jogadores.xml">
+                Download XML
+            </a>
+            <table id="jogadoresTable">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Equipa</th>
+                        <th>Posição</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-section left">
+            <p>&copy; 2024 Basquetebol. Tiago Marinho Rego. A045895 </p>
+        </div>
+        <div class="footer-section middle">
+            <figure>
+                <a class="umaia" href="https://www.umaia.pt/" target="_blank"><img src="img/umaia.png"
+                        alt="Logo UMAIA"></a>
+            </figure>
+        </div>
+        <div class="footer-section right">
+            <address>
+                Contacto: <a class="contact" href="mailto:A045895@umaia.pt">A045895@umaia.pt</a>
+            </address>
+        </div>
+    </footer>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

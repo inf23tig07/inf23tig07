@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jogadores xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="jogadores.xsd">
+    <jogador>
+        <nome>Michael Jordan</nome>
+        <equipa>Chicago Bulls</equipa>
+        <posicao>Guard</posicao>
+    </jogador>
+    <jogador>
+        <nome>LeBron James</nome>
+        <equipa>Los Angeles Lakers</equipa>
+        <posicao>Forward</posicao>
+    </jogador>
+    <jogador>
+        <nome>Kobe Bryant</nome>
+        <equipa>Los Angeles Lakers</equipa>
+        <posicao>Guard</posicao>
+    </jogador>
+    <jogador>
+        <nome>Shaquille O'Neal</nome>
+        <equipa>Los Angeles Lakers</equipa>
+        <posicao>Center</posicao>
+    </jogador>
+    <jogador>
+        <nome>Tim Duncan</nome>
+        <equipa>San Antonio Spurs</equipa>
+        <posicao>Forward-Center</posicao>
+    </jogador>
+       <jogador>
+        <nome>Larry Bird</nome>
+        <equipa>Boston Celtics</equipa>
+        <posicao>Forward</posicao>
+    </jogador>
+    <jogador>
+        <nome>Giannis Antetokounmpo</nome>
+        <equipa>Milwaukee Bucks</equipa>
+        <posicao>Forward</posicao>
+    </jogador>
+    <jogador>
+        <nome>Kevin Durant</nome>
+        <equipa>Phoenix Suns</equipa>
+        <posicao>Forward</posicao>
+    </jogador>
+    <jogador>
+        <nome>Stephen Curry</nome>
+        <equipa>Golden State Warriors</equipa>
+        <posicao>Guard</posicao>
+    </jogador>
+    <jogador>
+        <nome>Luka Dončić</nome>
+        <equipa>Dallas Mavericks</equipa>
+        <posicao>Guard-Forward</posicao>
+    </jogador>
+    
+    <jogador>
+        <nome>Joel Embiid</nome>
+        <equipa>Philadelphia 76ers</equipa>
+        <posicao>Center</posicao>
+    </jogador>
+    <jogador>
+        <nome>Anthony Davis</nome>
+        <equipa>Los Angeles Lakers</equipa>
+        <posicao>Forward-Center</posicao>
+    </jogador>
+
+</jogadores>
