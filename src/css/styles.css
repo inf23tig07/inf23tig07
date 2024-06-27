@@ -560,3 +560,7 @@ a:hover {
 .okc {
     text-align: center;
 }
+
+okc:first-child {
+    margin-top: 30px
+}
