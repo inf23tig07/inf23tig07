@@ -561,6 +561,6 @@ a:hover {
     text-align: center;
 }
 
-okc:first-child {
+p.okc:first-child {
     margin-top: 30px;
 }
