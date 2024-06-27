@@ -35,7 +35,8 @@
         <div class="form-container">
             <div class="form-box">
                 <h2 class="form">Formulário de Contato</h2>
-                <form action="/" name="contact" method="post" enctype="text/plain" data-netlify="true" netlify>
+                <form id="contact-form" name="contact" method="post" enctype="text/plain">
+                    <input type="hidden" name="form-name" value="contact">
                     <div class="form-group">
                         <label for="nome">Nome</label>
                         <input type="text" id="nome" name="nome" required>
