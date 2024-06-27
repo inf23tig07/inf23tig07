@@ -35,7 +35,8 @@
         <div class="form-container">
             <div class="form-box">
                 <h2 class="form">Formulário de Contato</h2>
-                <form id="contact-form" action ="/" name="contact" method="post" enctype="text/plain" netlify>
+               <form id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/">
+            <input type="hidden" name="form-name" value="contact">
                     <div class="form-group">
                         <label for="nome">Nome</label>
                         <input type="text" id="nome" name="nome" required> <!--campo obrigatório -->
