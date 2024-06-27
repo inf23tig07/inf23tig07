@@ -557,6 +557,6 @@ a:hover {
     text-decoration: none;
 }
 
-.okc{
+.okc, a.okc {
     text-align: center;
 }
